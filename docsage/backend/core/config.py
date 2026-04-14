@@ -18,7 +18,7 @@ class Settings(BaseSettings):
 
     # ── API ───────────────────────────────────────────────────────────────────
     api_prefix: str = "/api/v1"
-    cors_origins: list[str] = ["http://localhost:5173", "http://localhost:3000"]
+    cors_origins: list[str] = ["*"]
     max_upload_size_mb: int = 50
     request_timeout_seconds: int = 120
 
