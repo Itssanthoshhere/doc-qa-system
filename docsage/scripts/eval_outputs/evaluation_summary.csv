@@ -1,0 +1,5 @@
+metric,value
+accuracy,0.68
+avg_latency_ms,208.2545629198925
+confidence_mean,0.6197673256295283
+confidence_std,0.25625348642520596
